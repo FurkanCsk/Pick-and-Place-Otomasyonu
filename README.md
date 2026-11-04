@@ -51,7 +51,16 @@ Bu proje, **Siemens TIA Portal** ve **PLCSim** kullanılarak geliştirilmiş, **
   ![Network 7 - Bırakma ve Konveyör 2](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/B%C4%B1rakma%20ve%20Konveyor2%20TIA%20PORTAL.png)
 * **Factory IO Sahne Görünümü:**
   ![Factory IO - Konveyör 2 ve Çıkış](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/Factory%20IO%20B%C4%B1rakma%20ve%20Konveyor2%20.png)
-> **Açıklama:** İkinci istasyona varan ürün bırakılır, eksenler evine döner. `Sensor2` ve `Sensor3` ile Konveyör 2 çalıştırılır; anlık sensör kesilmeleri ara hafıza biti (`%M10.2`) ile kararlı hale getirilerek parça sayımı yapılır.
+> **Açıklama:** İkinci istasyona varan ürün bırakılır, eksenler evine döner. `Sensor2` ile Konveyör 2 çalıştırılır; anlık sensör kesilmeleri ara hafıza biti (`%M10.2`) ile kararlı hale getirilerek parça sayımı yapılır.
+
+---
+
+### Network 9, 10 & 11: Ürün Sayımı ve Otomatik Durdurma
+* **TIA Portal Kodu:**
+  ![Network 9 - Ürün Sayımı ve Otomatik Durdurma](network9_sayim.png)
+* **Factory IO Sahne Görünümü:**
+  ![Factory IO - Sayım ve Çıkış Bandı](factory_sayim.png)
+> **Açıklama:** `Sensor3` (`%I0.5`) üzerinden anlık düşmeleri engelleyen ara hafıza bitleriyle (`%M10.2`) sayım (`Counter1`) gerçekleştirilir. Ürün sayısı istenen değere (`== 3`) ulaştığında `Sistemi Durdur` biti (`%M10.3`) tetiklenerek Konveyör 2 güvenli bir şekilde durdurulur.
 
 ---
 
