@@ -17,9 +17,9 @@ Bu proje, **Siemens TIA Portal** ve **PLCSim** kullanılarak geliştirilmiş, **
 
 ### Network 1 & 2: Sistem Start / Stop ve Ana Hafıza
 * **TIA Portal Kodu:**
-  ![Network 1 - Start Stop](network1_start.png)
+  ![Network 1 - Start Stop](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/Sistem%20Start%20Tia%20Portal.png)
 * **Factory IO Sahne Görünümü:**
-  ![Factory IO - Genel Bakış](factory_overview.png)
+  ![Factory IO - Genel Bakış](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/Factory%20IO%20Sahne%20G%C3%B6r%C3%BCn%C3%BCm%C3%BC.png)
 > **Açıklama:** Start butonuna (`%I0.0`) basıldığında sistem Set/Reset (SR) bloğu üzerinden ana hafıza bitini (`%M10.0`) aktifler.
 
 ---
