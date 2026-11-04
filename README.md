@@ -37,9 +37,10 @@ Bu proje, **Siemens TIA Portal** ve **PLCSim** kullanılarak geliştirilmiş, **
 
 ### Network 5 & 6: Ürün Tutma ve X Ekseni Transferi
 * **TIA Portal Kodu:**
-  ![Network 5 - Tutucu ve X Ekseni](network5_tutucu.png)
+  
+  ![Network 5 - Tutucu ve X Ekseni](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/%C3%9Cr%C3%BCn%20Tutma%20ve%20Transfer%20TIA%20PORTAL.png)
 * **Factory IO Sahne Görünümü:**
-  ![Factory IO - Pick and Place Kolu](factory_pickplace.png)
+  ![Factory IO - Pick and Place Kolu](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/Factory%20IO%20Transfer.png)
 > **Açıklama:** Tutucu (`%Q0.2`) Set edilip parçayı kavradıktan sonra, zaman rölesi gecikmesiyle X ekseni taşıma hareketi (`%Q0.3`) tetiklenir ve transfer hafızası (`%M10.1`) devreye girer.
 
 ---
