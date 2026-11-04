@@ -47,9 +47,10 @@ Bu proje, **Siemens TIA Portal** ve **PLCSim** kullanılarak geliştirilmiş, **
 
 ### Network 7 & 8: Bırakma, Geri Dönüş ve Konveyör 2
 * **TIA Portal Kodu:**
-  ![Network 7 - Bırakma ve Konveyör 2](network7_birakma.png)
+  
+  ![Network 7 - Bırakma ve Konveyör 2](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/B%C4%B1rakma%20ve%20Konveyor2%20TIA%20PORTAL.png)
 * **Factory IO Sahne Görünümü:**
-  ![Factory IO - Konveyör 2 ve Çıkış](factory_conveyor2.png)
+  ![Factory IO - Konveyör 2 ve Çıkış](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/Factory%20IO%20B%C4%B1rakma%20ve%20Konveyor2%20.png)
 > **Açıklama:** İkinci istasyona varan ürün bırakılır, eksenler evine döner. `Sensor2` ve `Sensor3` ile Konveyör 2 çalıştırılır; anlık sensör kesilmeleri ara hafıza biti (`%M10.2`) ile kararlı hale getirilerek parça sayımı yapılır.
 
 ---
