@@ -57,9 +57,10 @@ Bu proje, **Siemens TIA Portal** ve **PLCSim** kullanılarak geliştirilmiş, **
 
 ### Network 9, 10 & 11: Ürün Sayımı ve Otomatik Durdurma
 * **TIA Portal Kodu:**
-  ![Network 9 - Ürün Sayımı ve Otomatik Durdurma](network9_sayim.png)
+  
+  ![Network 9 - Ürün Sayımı ve Otomatik Durdurma](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/%C3%9Cr%C3%BCn%20Say%C4%B1m%C4%B1%20ve%20Otomatik%20Durdurma%20TIA%20PORTAL.png)
 * **Factory IO Sahne Görünümü:**
-  ![Factory IO - Sayım ve Çıkış Bandı](factory_sayim.png)
+  ![Factory IO - Sayım ve Çıkış Bandı](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/Factory%20IO%20%C3%9Cr%C3%BCn%20Say%C4%B1m%C4%B1.png)
 > **Açıklama:** `Sensor3` (`%I0.5`) üzerinden anlık düşmeleri engelleyen ara hafıza bitleriyle (`%M10.2`) sayım (`Counter1`) gerçekleştirilir. Ürün sayısı istenen değere (`== 3`) ulaştığında `Sistemi Durdur` biti (`%M10.3`) tetiklenerek Konveyör 2 güvenli bir şekilde durdurulur.
 
 ---
