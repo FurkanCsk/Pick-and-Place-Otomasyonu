@@ -27,6 +27,7 @@ Bu proje, **Siemens TIA Portal** ve **PLCSim** kullanılarak geliştirilmiş, **
 
 ### Network 3 & 4: Konveyör 1 Hareketi ve Z Ekseni Koordinasyonu
 * **TIA Portal Kodu:**
+
   ![Network 3 - Konveyör ve Z Ekseni](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/Konveyor1%20Hareket%20TIA%20PORTAL.png)
 * **Factory IO Sahne Görünümü:**
   ![Factory IO - Konveyör 1 ve Piston](https://github.com/FurkanCsk/Pick-and-Place-Otomasyonu/blob/main/Factory%20IO%20Konveyor1%20ve%20Piston.png)
