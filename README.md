@@ -9,7 +9,7 @@ Bu proje, **Siemens TIA Portal** ve **PLCSim** kullanılarak geliştirilmiş, **
 2. **Konveyör 1 ve Parça Algılama:** Parça sensöre ulaştığında konveyör durur ve çakışma önleyici mantıkla Z ekseni aşağı inerek ürünü kavrar.
 3. **X Ekseni Transferi:** Tutucu aktif olduktan sonra mekanik gecikmeyle birlikte ürün 2. konveyöre doğru taşınır.
 4. **Bırakma ve Geri Dönüş:** İkinci istasyonda parça bırakılır, eksenler başlangıç konumuna döner.
-5. **Sayım ve Çıkış:** Anlık sensör düşmelerini engelleyen ara hafıza bitleri yardımıyla parçalar sayılır ve döngü tamamlanır.
+5. **Sayım ve Çıkış:** Anlık sensör düşmelerini engelleyen ara hafıza bitleri yardımıyla parçalar sayılır ve döngü tamamlanır. Ayrıca sayılan ürün değeri 3 olduğunda sistem kendini otomatik durdurur.
 
 ---
 
